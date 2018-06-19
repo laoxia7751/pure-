@@ -1,0 +1,189 @@
+/**index.wxss**/
+.index_top{
+    width: 100%;
+    height: 90rpx;
+    line-height: 90rpx;
+    padding: 0 12rpx;
+    font-size: 24rpx;
+    border-bottom: 1px solid #dedede;
+    box-sizing: border-box;
+}
+.index_top .l{
+    display: flex;
+    justify-content: flex-start;
+}
+.index_top navigator,.index_top .city_choose{
+    display: flex;
+    align-items: center;
+}
+.index_top navigator{
+    margin-right: 39rpx;
+}
+.index_top .l navigator:last-child{
+    margin-right: 0;
+}
+.index_top image{
+    width: 36rpx;
+    height: 36rpx;
+    padding-right: 8rpx;
+}
+.index_top .city_choose image{
+    padding-right: 0;
+    padding-left: 8rpx;
+}
+
+.my_reservation,.view_show{
+    box-sizing: border-box;
+    padding:12rpx;
+}
+.my_reservation .content{
+    width: 100%;
+    height: 398rpx;
+    background: #f1f1f1;
+    border: 1px solid #999;
+    border-radius: 10rpx;
+}
+.my_reservation .content .name,.my_reservation .content .course{
+    font-size: 28rpx;
+    text-align: center;
+    display: block;
+}
+.my_reservation .content .name{
+    line-height: 75rpx;
+}
+.my_reservation .content .course{
+    line-height: 70rpx;
+}
+.my_reservation .content .course navigator{
+    display: inline-block;
+}
+.my_reservation .content .course navigator:after{
+    content: '';
+    border-style:dashed dashed dashed solid;
+    border-color:transparent transparent transparent #999;
+    border-width:14rpx;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: -34rpx;
+}
+.my_reservation .reservation_panel{
+    width: 600rpx;
+    height: 250rpx;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 10rpx;
+}
+.my_reservation .reservation_panel .no_reservation{
+    height: 250rpx;
+}
+.my_reservation .reservation_panel .no_reservation text{
+    font-size: 28rpx;
+}
+.my_reservation .reservation_panel .no_reservation button{
+    margin-left: 28rpx;
+    width: 160rpx;
+    line-height: 50rpx;
+    font-size: 24rpx;
+    padding:0;
+    box-shadow: 0 0 10rpx rgba(107, 107, 107, 0.1);
+}
+
+.view_show{
+    box-sizing: border-box;
+}
+
+.view_show .content{
+    height: 398rpx;
+    border-radius: 10rpx;
+    border: 1px solid #999;
+}
+
+.view_show #view_show{
+    width: 100%;
+    height: 100%;
+}
+
+.view_show .controls{
+    width: 100%;
+    height: 398rpx;
+    border-radius: 10rpx;
+    overflow: hidden;
+}
+
+.nav{
+    box-sizing: border-box;
+    padding: 12rpx;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.nav .nav_item{
+    width: 31.33%;
+    height: 230rpx;
+    border-radius: 17rpx;
+    overflow: hidden;
+    margin-right:2%; 
+    margin-bottom:14rpx; 
+    border: 1px solid #999;
+}
+.nav .nav_item:nth-child(3n){
+    margin-right:0; 
+}
+
+.fixed{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: auto;
+}
+.fixed .view_top{
+    display: flex;
+    justify-content: center;
+    margin:0 0 28rpx;
+}
+.fixed .view_top button{
+    width: 320rpx;
+    line-height: 80rpx;
+    font-size: 28rpx;
+    display: inline-block;
+    background: #2478be;
+    color:#fff;
+    box-shadow: 0 0 20rpx rgba(107, 107, 107, 0.4);
+    border-radius: 18rpx;
+}
+.fixed .view_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 15rpx 0;
+    background: #fff;
+    border-top:1px solid #999;
+}
+.fixed .view_bottom navigator{
+    display: inline-block;
+    text-align: center;
+    line-height: 50rpx;
+    flex:1;
+    font-size: 28rpx;
+    position: relative;
+    color:#2478be;
+}
+.fixed .view_bottom navigator:after{
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #2478be;
+}
+.fixed .view_bottom navigator:last-child:after{
+    display: none;
+}

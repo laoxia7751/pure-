@@ -1,0 +1,87 @@
+<view class="container index_container">
+    <!-- 顶部操作start -->
+    <view class="index_top">
+        <view class='l fl'>
+            <navigator class="login">
+            <image mode="aspectFill" src="../../dist/images/index_icon_03.png"></image>
+            登入
+            </navigator>
+            <navigator class="register">
+            <image mode="aspectFill" src="../../dist/images/index_icon_05.png"></image>
+            立即登记</navigator>
+        </view>
+        <view class="city_choose fr">
+            上海
+            <image mode="aspectFill" src="../../dist/images/index_icon_07.png"></image>
+        </view>
+    </view>
+    <!-- 顶部操作end -->
+    <!-- 我的预约start -->
+    <view class="my_reservation">
+        <view class="content">
+            <text class="name">我的预约</text>
+            <view class="reservation_panel">
+                <view class="no_reservation flex jc ac">
+                    <text class="dib">日历内未有预约</text>
+                    <button class="dib m0">预约</button>
+                </view>
+            </view>
+            <view class="course">
+                <navigator class="por">如何预约</navigator>
+            </view>
+        </view>
+    </view>
+    <!-- 我的预约end  -->
+    <!-- video展示 start -->
+    <view class="view_show">
+        <view class="content">
+            <video id="view_show" src="{{video_src}}"  controls>
+                <cover-view class="controls" style="display:{{play_image}};" bindtap="test">
+                    <cover-image class="img"  src="{{video_img}}" />
+                </cover-view>
+            </video>
+        </view>
+    </view>
+    <!-- video展示 end -->
+    <!-- nav start -->
+    <view class="nav flex">
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+        <view class="nav_item">
+            <image mode="aspectFill" src="../../dist/images/nav_21.jpg"></image>
+        </view>
+    </view>
+    <!-- nav end -->
+    <view class="fixed">
+        <view class="view_top">
+            <button class="dib">瑜伽活动</button>
+        </view>
+        <view class="view_bottom">
+            <navigator>研习班</navigator>
+            <navigator>教师培训</navigator>
+            <navigator>研讨会</navigator>
+        </view>
+    </view>
+</view>

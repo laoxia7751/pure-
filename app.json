@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/user/user",
+        "pages/info/info",
+        "pages/reservation/reservation",
+        "pages/qr_code/qr_code"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Pure歡迎你",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "black",
+        "selectedColor": "#2478be",
+        "backgroundColor": "#f4f4f4",
+        "borderStyle": "#f4f4f4",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "dist/images/home.png",
+                "selectedIconPath": "dist/images/home_on.png"
+            },
+            {
+                "pagePath": "pages/qr_code/qr_code",
+                "text": "QR码",
+                "iconPath": "dist/images/QR.png",
+                "selectedIconPath": "dist/images/QR_on.png"
+            },{
+                "pagePath": "pages/info/info",
+                "text": "资料",
+                "iconPath": "dist/images/info.png",
+                "selectedIconPath": "dist/images/info_on.png"
+            },{
+                "pagePath": "pages/reservation/reservation",
+                "text": "预约",
+                "iconPath": "dist/images/yy.png",
+                "selectedIconPath": "dist/images/yy_on.png"
+            },{
+                "pagePath": "pages/qr_code/qr_code",
+                "text": "我的资料",
+                "iconPath": "dist/images/my.png",
+                "selectedIconPath": "dist/images/my_on.png"
+            }
+        ]
+    }
+}
